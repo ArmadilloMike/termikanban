@@ -9,9 +9,19 @@
 - Keyboard driven navigation system
 - Save and load your boards
 
+
+## Demo
+
+[Video](https://www.youtube.com/embed/QIAJcgSBe5Q)
+
 ## Installation 
 
 Vist the [Releases tab](https://github.com/armadillomike/termikanban/releases) for the installer.
+
+You can also install via PyPi.
+```bash
+pip install termikanban
+```
 
 ## Usage
 

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termikanban"
+version = "1.0.1"
+description = "A terminal-based Kanban board application."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [{name = "ArmadilloMike", email = "armadillomike@armadillomike.dev"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/armadillomike/termikanban"
+
+[project.scripts]
+termikanban = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
